@@ -1,0 +1,14 @@
+{   
+"cmd" : ["/usr/bin/gcc", "$file_name", "-og", "${file_base_name}", "-lm" , "-Wall"],
+"selector" : "source.c",
+"shell":false,
+"working_dir" : "$file_path",
+
+"variants":
+    [
+        {
+            "name": "Run",
+            "cmd": ["bash", "-c", "/usr/bin/gcc '${file}' -Wall -o '${file_path}/${file_base_name}' && '${file_path}/${file_base_name}'"]
+        }
+    ]
+}

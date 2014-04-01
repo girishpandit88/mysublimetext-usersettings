@@ -1,0 +1,11 @@
+{
+	"installed_packages":
+	[
+		"FileDiffs",
+		"GitGutter",
+		"Nodejs",
+		"Package Control",
+		"Python Auto-Complete",
+		"Python PEP8 Autoformat"
+	]
+}
